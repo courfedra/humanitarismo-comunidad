@@ -52,7 +52,7 @@ export default function QuienesSomosCTA() {
                                         icon={item.icon}
                                         className="w-8 h-8 text-[#5E17EB] mb-3"
                                     />
-                                    <p className="text-sm text-gray-600">{item.text}</p>
+                                    <p className="text-sm text-black">{item.text}</p>
                                 </div>
                             ))}
                         </div>

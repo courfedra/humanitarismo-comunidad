@@ -10,22 +10,22 @@ export default function StatsSection() {
     const stats = [
         {
             icon: faFolderOpen,
-            number: "500+",
+            number: "20+",
             description: "Proyectos completados"
         },
         {
             icon: faCircleUser,
-            number: "359+",
+            number: "15+",
             description: "Familias beneficiadas"
         },
         {
             icon: faLightbulb,
-            number: "428+",
+            number: "40+",
             description: "Voluntarios activos"
         },
         {
             icon: faCircleCheck,
-            number: "67+",
+            number: "5+",
             description: "Premios recibidos"
         }
     ];
