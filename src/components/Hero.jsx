@@ -41,13 +41,13 @@ export default function Hero() {
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
                                     <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" />
                                 </a>
-                                <a href="https://instagram.com"
+                                <a href="https://www.instagram.com/humanitarismocomunidad/?hl=es"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
                                     <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
                                 </a>
-                                <a href="https://facebook.com"
+                                <a href="https://www.facebook.com/HumanitarismoComunidad/?locale=es_LA"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
@@ -59,7 +59,7 @@ export default function Hero() {
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
                                     <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6" />
                                 </a>
-                                <a href="https://linkedin.com"
+                                <a href="https://www.linkedin.com/company/humanitarismo-comunidad/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">

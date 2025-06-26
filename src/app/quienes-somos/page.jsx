@@ -6,7 +6,7 @@ export default function QuienesSomos() {
     return (
         <div className="min-h-screen pt-20">
             {/* Nuestra Historia Section */}
-            <section className="bg-[#5E17EB] pt-15 md:pt-30">
+            <section className="bg-[#5E17EB] pt-15 md:pt-25">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">                    <div className="text-center">
                     <h1 className="text-4xl font-bold text-white mb-2">
                         Nuestra historia
@@ -34,9 +34,9 @@ export default function QuienesSomos() {
                                 <p className="text-gray-300">
                                     En 2018, Martín dio el primer paso hacia Monte Quemado, Santiago del Estero, Argentina. Allí, se encontró con una comunidad marcada por el aislamiento y la falta de oportunidades. Un año después, un giro inesperado del destino le llevó al repensar, unió fuerzas con Nadia para brindar acompañamiento virtual a los trabajadores sociales de la zona. Así comenzaron a plantarse las primeras semillas de esperanza.
                                 </p>
-                                <button className="font-semibold bg-[#F6A717] cursor-pointer text-white px-8 py-3 rounded-full mt-4 hover:bg-[#4c12c4] transition-colors">
+                                {/* <button className="font-semibold bg-[#F6A717] cursor-pointer text-white px-8 py-3 rounded-full mt-4 hover:bg-[#4c12c4] transition-colors">
                                     Leer más
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     </div>
@@ -145,11 +145,11 @@ export default function QuienesSomos() {
                         </div>
                     </div>
 
-                    <div className="text-center mt-12">
+                    {/* <div className="text-center mt-12">
                         <button className="font-semibold bg-[#5E17EB] text-white px-8 py-3 rounded-full hover:bg-[#4c12c4] transition-colors">
                             Leer más
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -251,9 +251,9 @@ export default function QuienesSomos() {
                             <p>
                                 El destino los llevó aún más lejos. En 2019, Nadia más Martín Quemado y descubrió una realidad que golpeó brutalmente: jóvenes que se suicidaban por desesperanza. Para ella, esta problemática era más que un desafio, era su llamado personal. Tras haber perdido a dos hermanos por suicidio, decidió transformar el dolor en amor, resignificándolo en la causa que envolvería todo el entorno comunitario.
                             </p>
-                            <button className="font-semibold bg-[#F6A717] cursor-pointer text-white px-8 py-3 rounded-full mt-4 hover:bg-[#4c12c4] transition-colors">
+                            {/* <button className="font-semibold bg-[#F6A717] cursor-pointer text-white px-8 py-3 rounded-full mt-4 hover:bg-[#4c12c4] transition-colors">
                                 Leer más
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>

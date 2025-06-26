@@ -38,7 +38,7 @@ export default function Navbar() {
           <div className="hidden sm:flex items-center space-x-14">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/quienes-somos">Quiénes somos</NavLink>
-            <NavLink href="/proyectos" disabled>Proyectos</NavLink>
+            {/* <NavLink href="/proyectos" disabled>Proyectos</NavLink> */}
           </div>
 
           {/* Mobile Menu Button */}
@@ -71,9 +71,10 @@ export default function Navbar() {
             </NavLink>
             <NavLink href="/quienes-somos" onClick={() => setIsOpen(false)}>
               Quiénes somos
-            </NavLink>            <NavLink href="/proyectos" onClick={() => setIsOpen(false)} disabled>
+            </NavLink>            
+            {/* <NavLink href="/proyectos" onClick={() => setIsOpen(false)} disabled>
               Proyectos
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
     </nav>
