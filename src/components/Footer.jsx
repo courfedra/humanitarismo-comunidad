@@ -47,7 +47,7 @@ export default function Footer() {
                 <Link href="/quienes-somos" className="text-gray-300 hover:text-[#F6A717] transition-colors">
                   Quiénes Somos
                 </Link>
-              </li>              
+              </li>
               <li>
                 <Link href="https://donaronline.org/humanitarismo-comunidad/ayudanos-a-llegar-a-las-comunidades" target='_blank' className="text-gray-300 hover:text-[#F6A717] transition-colors">
                   Donar
@@ -61,33 +61,33 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contactanos</h3>
             <div className="space-y-3">
               <p className="flex items-center gap-2 text-gray-300">
-                <a href="mailto:contacto@humanitarismo.com"
-                  className="hover:text-[#F6A717] transition-colors">
-                  contacto@humanitarismo.com
+                <a href="mailto:info@humanitarismocomunidad.org.ar"
+                  className="hover:text-[#F6A717] transition-colors break-all">
+                  info@humanitarismocomunidad.org.ar
                 </a>
               </p>
               <p className="text-gray-300">Monte Quemado, Santiago del Estero, Argentina</p>
-              <p className="text-gray-300">+54 9 11 1234-5678</p>
+              <p className="text-gray-300">+54 9 11 3679 7781</p>
               <div className="flex gap-4 mt-4">
-                <a href="https://instagram.com"
+                <a href="https://www.instagram.com/humanitarismocomunidad/?hl=es"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-[#F6A717] transition-colors duration-300 transform">
                   <FontAwesomeIcon icon={faInstagram} className="w-6 h-6" />
                 </a>
-                <a href="https://facebook.com"
+                <a href="https://www.facebook.com/HumanitarismoComunidad/?locale=es_LA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-[#F6A717] transition-colors duration-300 transform">
                   <FontAwesomeIcon icon={faFacebook} className="w-6 h-6" />
                 </a>
-                <a href="https://wa.me/1234567890"
+                <a href="https://wa.me/5491136797781"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-[#F6A717] transition-colors duration-300 transform">
                   <FontAwesomeIcon icon={faWhatsapp} className="w-6 h-6" />
                 </a>
-                <a href="https://linkedin.com"
+                <a href="https://www.linkedin.com/company/humanitarismo-comunidad"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-[#F6A717] transition-colors duration-300 transform">

@@ -7,12 +7,13 @@ export default function QuienesSomos() {
         <div className="min-h-screen pt-20">
             {/* Nuestra Historia Section */}
             <section className="bg-[#5E17EB] pt-15 md:pt-25">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">                    <div className="text-center">
-                    <h1 className="text-4xl font-bold text-white mb-2">
-                        Nuestra historia
-                    </h1>
-                    <div className="h-1 bg-[#F6A717] w-24 mx-auto"></div>
-                </div>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center">
+                        <h1 className="text-4xl font-bold text-white mb-2">
+                            Nuestra historia
+                        </h1>
+                        <div className="h-1 bg-[#F6A717] w-24 mx-auto"></div>
+                    </div>
                     <div className="w-full py-16">
                         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                             <div className="relative h-[400px]">
@@ -23,7 +24,6 @@ export default function QuienesSomos() {
                                     className="object-cover rounded-lg"
                                 />
                             </div>
-
                             <div className="space-y-6 text-gray-600">
                                 <h2 className="text-2xl font-bold text-white mb-4">
                                     Humanitarismo Comunidad: Un sueno que transforma vidas
@@ -42,7 +42,6 @@ export default function QuienesSomos() {
                     </div>
                 </div>
             </section>
-
             {/* Misión y Visión Section */}
             <section className="py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-16">
@@ -87,16 +86,15 @@ export default function QuienesSomos() {
                     </div>
                 </div>
             </section>
-
             {/* Objetivos ODS Section */}
             <section className="py-16 bg-[#F6A717] w-full">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">                    <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold mb-2">
-                        Objetivos ODS 2030 alineados con nuestra misión
-                    </h2>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl font-bold mb-2">
+                            Objetivos ODS 2030 alineados con nuestra misión
+                        </h2>
                     <div className="h-1 bg-[#5E17EB] w-24 mx-auto"></div>
-                </div>
-
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* ODS 3 Card */}
                         <div className="bg-white rounded-lg p-6">
@@ -107,44 +105,52 @@ export default function QuienesSomos() {
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">ODS 3 Salud y bienestar</h3>
                                 </div>
                             </div>
-                            <p className="text-gray-600 mt-4">Promovemos el bienestar integral de los jóvenes y adolescentes, a través de programas de educación socioemocional.</p>
+                            <p className="text-gray-600 mt-4">
+                                Promovemos el bienestar integral de los jóvenes y adolescentes, a través de programas de educación socioemocional.
+                            </p>
                         </div>
-
                         {/* ODS 4 Card */}
                         <div className="bg-white rounded-lg p-6">
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 flex items-center justify-center">                                    <FontAwesomeIcon icon={faBookmark} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
+                                <div className="w-12 h-12 flex items-center justify-center">
+                                    <FontAwesomeIcon icon={faBookmark} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
                                 </div>                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">ODS 4 Educación de calidad</h3>
                                 </div>
                             </div>
-                            <p className="text-gray-600 mt-4">Brindamos educación en valores y habilidades socioemocionales, complementando la educación formal y asegurando que tengan acceso a una formación integral de calidad.</p>
+                            <p className="text-gray-600 mt-4">
+                                Brindamos educación en valores y habilidades socioemocionales, complementando la educación formal y asegurando que tengan acceso a una formación integral de calidad.
+                            </p>
                         </div>
-
                         {/* ODS 8 Card */}
                         <div className="bg-white rounded-lg p-6">
                             <div className="flex items-start gap-4">
                                 <div className="w-12 h-12 flex items-center justify-center">
                                     <FontAwesomeIcon icon={faFolderOpen} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">ODS 8 Trabajo decente</h3>
                                 </div>
                             </div>
-                            <p className="text-gray-600 mt-4">Preparamos jóvenes con habilidades esenciales para su futuro laboral-emprendedor, fomentando su desarrollo personal y promoviendo el desarrollo económico sostenible.</p>
+                            <p className="text-gray-600 mt-4">
+                                Preparamos jóvenes con habilidades esenciales para su futuro laboral-emprendedor, fomentando su desarrollo personal y promoviendo el desarrollo económico sostenible.
+                            </p>
                         </div>
-
                         {/* ODS 10 Card */}
                         <div className="bg-white rounded-lg p-6">
                             <div className="flex items-start gap-4">
-                                <div className="w-12 h-12 flex items-center justify-center">                                    <FontAwesomeIcon icon={faFaceSmile} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                <div className="w-12 h-12 flex items-center justify-center">
+                                    <FontAwesomeIcon icon={faFaceSmile} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">ODS 10 Reducción de desigualdades</h3>
                                 </div>
                             </div>
-                            <p className="text-gray-600 mt-4">Nuestro trabajo se enfoca en comunidades desfavorecidas, buscando la inclusión de vulnerabilidad brindando oportunidades educativas y promover la inclusión social.</p>
+                            <p className="text-gray-600 mt-4">
+                                Nuestro trabajo se enfoca en comunidades desfavorecidas, buscando la inclusión de vulnerabilidad brindando oportunidades educativas y promover la inclusión social.
+                            </p>
                         </div>
                     </div>
-
                     {/* <div className="text-center mt-12">
                         <button className="font-semibold bg-[#5E17EB] text-white px-8 py-3 rounded-full hover:bg-[#4c12c4] transition-colors">
                             Leer más
@@ -152,23 +158,23 @@ export default function QuienesSomos() {
                     </div> */}
                 </div>
             </section>
-
             {/* Propuesta de Valor Section */}
             <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">                    <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold text-[#5E17EB] mb-2">
-                        Propuesta de valor
-                    </h2>
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl font-bold text-[#5E17EB] mb-2">
+                            Propuesta de valor
+                        </h2>
                     <div className="h-1 bg-[#F6A717] w-24 mx-auto"></div>
                 </div>
-
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Acompañamiento Card */}
                         <div className="bg-white rounded-lg md:p-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 flex items-center justify-center">
                                     <FontAwesomeIcon icon={faHandshake} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">Acompañamiento integral</h3>
                                 </div>
                             </div>
@@ -176,13 +182,13 @@ export default function QuienesSomos() {
                                 Acompañamos a jóvenes de poblaciones vulnerables y de muy difícil acceso para que puedan desarrollar proyectos que promuevan el mejoramiento del tejido social comunitario.
                             </p>
                         </div>
-
                         {/* Desarrollo Personal Card */}
                         <div className="bg-white rounded-lg md:p-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 flex items-center justify-center">
                                     <FontAwesomeIcon icon={faLightbulb} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">Desarrollo personal</h3>
                                 </div>
                             </div>
@@ -190,13 +196,13 @@ export default function QuienesSomos() {
                                 A través de espacios de reflexión comprometida, herramientas de desarrollo personal y social, educación emocional y en valores, promoviendo el fortalecimiento de la autonomía y el trabajo en su proyecto vital significativo.
                             </p>
                         </div>
-
                         {/* Autonomía Card */}
                         <div className="bg-white rounded-lg md:p-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 flex items-center justify-center">
                                     <FontAwesomeIcon icon={faCompass} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">Autonomía y criterio</h3>
                                 </div>
                             </div>
@@ -204,13 +210,13 @@ export default function QuienesSomos() {
                                 Para que puedan decidir en forma autónoma, forjando juicio propio y con un activo interés en los asuntos comunes, construyendo así un horizonte de prosperidad, solidaridad y cuidado mutuos.
                             </p>
                         </div>
-
                         {/* Intercambio Social Card */}
                         <div className="bg-white rounded-lg md:p-6">
                             <div className="flex items-center gap-4">
                                 <div className="w-12 h-12 flex items-center justify-center">
                                     <FontAwesomeIcon icon={faComments} className="w-8 h-8 text-[#5E17EB]" fixedWidth />
-                                </div>                                <div>
+                                </div>
+                                <div>
                                     <h3 className="text-xl font-bold text-[#5E17EB] mb-2">Intercambio social</h3>
                                 </div>
                             </div>
@@ -221,16 +227,15 @@ export default function QuienesSomos() {
                     </div>
                 </div>
             </section>
-
             {/* Nuestro Equipo Section */}
             <section className="py-16 w-full bg-[#5E17EB]">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">                    <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold text-white mb-2">
-                        Nuestro equipo
-                    </h2>
-                    <div className="h-1 bg-[#F6A717] w-24 mx-auto"></div>
-                </div>
-
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl font-bold text-white mb-2">
+                            Nuestro equipo
+                        </h2>
+                        <div className="h-1 bg-[#F6A717] w-24 mx-auto"></div>
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                         <div className="relative h-[400px]">
                             <Image
@@ -240,10 +245,9 @@ export default function QuienesSomos() {
                                 className="object-cover rounded-lg"
                             />
                         </div>
-
                         <div className="space-y-6 text-gray-300">
                             <p>
-                                Actualmente, más de 40 colaboradores no remunerados de Argentina y el mundo forman parte de este movimiento. Cada uno aporta su conocimiento y su tiempo para llevar sus frutos. Centrado y apuntalado en la educación, nuestro equipo lleva lugares de esperanza, fortaleza y cambio.
+                                Actualmente, más de 40 colaboradores que de forma voluntaria se han sumado desde Argentina y el mundo forman parte de este movimiento. Cada uno aporta su conocimiento y su tiempo para llevar sus frutos. Centrado y apuntalado en la educación, nuestro equipo lleva lugares de esperanza, fortaleza y cambio.
                             </p>
                             <p>
                                 Los diferentes equipos, conformados por profesionales reconocidas, son fundamentales en el funcionamiento diario de nuestra Organización, resolviendo y abordando iniciativas en áreas de proyectos, seminarios, eventos, creativos, de gestión institucional y administración.

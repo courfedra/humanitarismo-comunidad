@@ -27,7 +27,8 @@ export default function Hero() {
                                         <p className="text-gray-600 text-base mb-4">
                                             Nuestra misión es sentar las bases para la formación de personas libres y fuertes, y mejorar la vida en comunidad.</p>
                                         <Link
-                                            href="/donar"
+                                            href="https://donaronline.org/humanitarismo-comunidad/ayudanos-a-llegar-a-las-comunidades"
+                                            target="_blank"
                                             className="inline-flex items-center bg-[#5E17EB] text-white px-8 py-3 rounded-full text-base font-semibold hover:bg-[#4c12c4] transition-colors"
                                         >
                                             Quiero donar
@@ -37,7 +38,7 @@ export default function Hero() {
                             </div>
 
                             <div className="flex gap-6 mb-10 md:mb-0">
-                                <a href="mailto:contacto@humanitarismo.com"
+                                <a href="mailto:info@humanitarismocomunidad.org.ar"
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
                                     <FontAwesomeIcon icon={faEnvelope} className="w-6 h-6" />
                                 </a>
@@ -53,7 +54,7 @@ export default function Hero() {
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
                                     <FontAwesomeIcon icon={faFacebook} className="w-6 h-6" />
                                 </a>
-                                <a href="https://wa.me/1234567890"
+                                <a href="https://wa.me/5491136797781"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="text-gray-600 hover:text-[#5E17EB] transition-colors duration-300">
