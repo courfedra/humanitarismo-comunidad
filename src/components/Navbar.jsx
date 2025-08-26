@@ -37,7 +37,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden sm:flex items-center space-x-14">
             <NavLink href="/">Home</NavLink>
-            <NavLink href="/quienes-somos">Quiénes somos</NavLink>
+            <NavLink href="/quienes-somos/">Quiénes somos</NavLink>
             {/* <NavLink href="/proyectos" disabled>Proyectos</NavLink> */}
           </div>
 
@@ -69,7 +69,7 @@ export default function Navbar() {
             <NavLink href="/" onClick={() => setIsOpen(false)}>
               Home
             </NavLink>
-            <NavLink href="/quienes-somos" onClick={() => setIsOpen(false)}>
+            <NavLink href="/quienes-somos/" onClick={() => setIsOpen(false)}>
               Quiénes somos
             </NavLink>            
             {/* <NavLink href="/proyectos" onClick={() => setIsOpen(false)} disabled>

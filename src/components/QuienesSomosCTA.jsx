@@ -58,7 +58,7 @@ export default function QuienesSomosCTA() {
                         </div>
 
                         <Link
-                            href="/quienes-somos"
+                            href="/quienes-somos/"
                             className="inline-flex items-center bg-[#5E17EB] text-white px-8 py-3 rounded-full hover:bg-[#4c12c4] transition-colors text-base font-semibold"
                         >
                             Conocer más
