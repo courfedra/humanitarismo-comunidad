@@ -1,10 +1,10 @@
-name: Auto Build and Update
+name: Auto Build and Update Production
 
 on:
   push:
     branches: [ main ]
     paths-ignore:
-      - 'dist/**'
+      - 'out/**'
       - '.github/workflows/**'
   workflow_dispatch:
 
@@ -12,44 +12,70 @@ permissions:
   contents: write
 
 jobs:
-  build-and-update:
+  build-and-update-production:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: Checkout main branch
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        path: main-repo
         
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
+        cache-dependency-path: main-repo/package-lock.json
         
     - name: Install dependencies
-      run: npm ci
+      run: |
+        cd main-repo
+        npm ci
       
     - name: Build project
-      run: npm run build
-      
-    - name: Setup Git
       run: |
+        cd main-repo
+        npm run build
+        
+    - name: Checkout production branch
+      uses: actions/checkout@v4
+      with:
+        ref: production
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: production-repo
+        
+    - name: Copy built files to production root
+      run: |
+        # Limpiar producción anterior
+        rm -rf production-repo/*
+        
+        # Copiar solo el contenido de out (no la carpeta en sí)
+        cp -r main-repo/out/* production-repo/
+        
+        # Crear .gitkeep para mantener la rama
+        touch production-repo/.gitkeep
+        
+    - name: Setup Git for production
+      run: |
+        cd production-repo
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-    - name: Commit and push out folder
+    - name: Commit and push to production
       run: |
-        git add out/
+        cd production-repo
+        git add .
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "Auto-build: Update out folder [skip ci]"
-          git push origin main
+          git commit -m "Auto-build: Update static content [skip ci]"
+          git push origin production
         fi
         
     - name: Success message
       run: |
         echo "✅ Build completed successfully!"
-        echo "📁 dist folder has been updated"
-        echo "🚀 Ready for deployment"
+        echo "📁 Static content updated in production branch"
+        echo "🚀 Ready for Hostinger deployment"
