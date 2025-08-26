@@ -40,6 +40,10 @@ jobs:
         git commit -m "Auto-build: Update dist folder [skip ci]" || echo "No changes to commit"
         git push origin main || echo "Push failed or no changes"
         
+    - name: Prevent infinite loops
+      run: |
+        echo "Build completed. Adding [skip ci] to prevent loops."
+        
     - name: Deploy to Hostinger (Optional)
       run: |
         echo "Build completed successfully!"
