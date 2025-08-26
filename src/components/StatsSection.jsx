@@ -10,7 +10,7 @@ export default function StatsSection() {
     const stats = [
         {
             icon: faFolderOpen,
-            number: "20+",
+            number: "200+",
             description: "Proyectos completados"
         },
     ];
