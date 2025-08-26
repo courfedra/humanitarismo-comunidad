@@ -13,21 +13,6 @@ export default function StatsSection() {
             number: "20+",
             description: "Proyectos completados"
         },
-        {
-            icon: faCircleUser,
-            number: "15+",
-            description: "Familias beneficiadas"
-        },
-        {
-            icon: faLightbulb,
-            number: "40+",
-            description: "Voluntarios activos"
-        },
-        {
-            icon: faCircleCheck,
-            number: "5+",
-            description: "Premios recibidos"
-        }
     ];
 
     return (
