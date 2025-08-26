@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Script para copiar solo el contenido de dist a public_html
+# Script para copiar solo el contenido de out a public_html
 # Este script se ejecuta después de hacer git pull
 
 echo "Iniciando deployment..."
 
 # Verificar que estamos en el directorio correcto
-if [ ! -d "dist" ]; then
-    echo "Error: No se encontró la carpeta dist"
+if [ ! -d "out" ]; then
+    echo "Error: No se encontró la carpeta out"
     exit 1
 fi
 
@@ -21,9 +21,9 @@ fi
 echo "Limpiando public_html..."
 rm -rf public_html/*
 
-# Copiar solo el contenido de dist a public_html
-echo "Copiando contenido de dist a public_html..."
-cp -r dist/* public_html/
+# Copiar solo el contenido de out a public_html
+echo "Copiando contenido de out a public_html..."
+cp -r out/* public_html/
 
 echo "Deployment completado exitosamente!"
-echo "El contenido de dist ha sido copiado a public_html"
+echo "El contenido de out ha sido copiado a public_html"

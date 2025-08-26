@@ -31,8 +31,8 @@ jobs:
       
     - name: Create deployment package
       run: |
-        # Crear un archivo zip solo con el contenido de dist
-        cd dist
+        # Crear un archivo zip solo con el contenido de out
+        cd out
         zip -r ../deployment-package.zip .
         cd ..
         

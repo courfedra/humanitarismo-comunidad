@@ -14,6 +14,6 @@ jsconfig.json
 .DS_Store
 Thumbs.db
 
-# Solo incluir la carpeta dist
-!dist/
-dist/*
+# Solo incluir la carpeta out
+!out/
+out/*
