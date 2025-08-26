@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -34,7 +38,7 @@ jobs:
       run: |
         git add dist/
         git commit -m "Auto-build: Update dist folder [skip ci]" || echo "No changes to commit"
-        git push origin main
+        git push origin main || echo "Push failed or no changes"
         
     - name: Deploy to Hostinger (Optional)
       run: |
