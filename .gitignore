@@ -15,7 +15,7 @@
 
 # next.js
 /.next/
-/out/
+# /out/ - Comentado para permitir commit automático de GitHub Actions
 
 # production
 /build
