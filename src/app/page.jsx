@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <div className="">
         <Hero />
-        <StatsSection />
+        {/*<StatsSection />*/}
         <QuienesSomosCTA />
         <VideoSection />
         <DonarCTA />
